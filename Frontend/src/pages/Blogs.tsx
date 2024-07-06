@@ -9,7 +9,7 @@ export default function Blogs() {
   if (loading) {
     return (
       <div>
-        <Appbar></Appbar>
+        <Appbar ></Appbar>
         <div className="flex justify-center">
           <div>
             <BlogSkeleton></BlogSkeleton>

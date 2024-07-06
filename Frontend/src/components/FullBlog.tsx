@@ -9,9 +9,6 @@ export default function FullBlog({ blog }: { blog: Blogstype }) {
         <div className="grid grid-cols-12 px-10 w-full pt-200 max-w-screen-lg pt-12">
           <div className="col-span-8">
             <div className="text-5xl font-extrabold">{blog.title}</div>
-            <div className="text-slate-400 pt-3">
-              Posted On 2nd December 2024
-            </div>
             <div className="pt-4">{blog.content}</div>
           </div>
           <div className="col-span-4 ">
